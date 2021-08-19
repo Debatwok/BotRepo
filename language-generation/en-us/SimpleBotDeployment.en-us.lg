@@ -1,0 +1,26 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to your bot.
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+# TextInput_Prompt_lA4DWo()
+[Activity
+    Text = What is ayour name?
+]
+
+# SendActivity_R3qBoY()
+[Activity
+    Text = Hi ${user.name}
+]
